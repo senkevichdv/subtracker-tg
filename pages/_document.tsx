@@ -10,6 +10,7 @@ export default class MyDocument extends Document {
         <Head>
           {/* Telegram theme color support */}
           <meta name="theme-color" content="#ffffff" />
+          <link rel="stylesheet" href="/_fonts.css" />
         </Head>
         <body>
           <Main />

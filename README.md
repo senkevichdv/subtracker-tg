@@ -6,9 +6,9 @@ A Telegram Mini App for tracking subscriptions, built with Next.js, TypeScript, 
 - Add, edit, delete subscriptions
 - LocalStorage for data persistence
 - Material UI with dark/light theme (auto from Telegram)
-- i18n (English/Russian, extendable)
+- Russian language only
 - Telegram user info integration
-- Settings: language, currency, theme
+- Settings: currency, theme
 - About screen
 - (Future) Backend/database support
 
@@ -40,7 +40,7 @@ A Telegram Mini App for tracking subscriptions, built with Next.js, TypeScript, 
 - `components/` — Reusable UI components
 - `contexts/` — React contexts for subscriptions, settings, notifications
 - `utils/` — Utility functions (e.g., currency, Telegram API)
-- `locales/` — i18n translation files
+- `locales/` — Russian translation file
 
 ## Telegram Mini App Integration
 - Uses Telegram WebApp JS API for user info and theme

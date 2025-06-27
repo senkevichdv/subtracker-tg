@@ -1,5 +1,8 @@
 {
   "subscriptions": "Подписки",
+  "main_tab": "Главная",
+  "calendar_tab": "Календарь",
+  "settings_tab": "Настройки",
   "add_subscription": "Добавить подписку",
   "edit_subscription": "Редактировать подписку",
   "delete": "Удалить",

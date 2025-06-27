@@ -1,7 +1,9 @@
 // @ts-check
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-};
 
-module.exports = nextConfig; 
+module.exports = {
+  i18n: {
+    defaultLocale: 'ru',
+    locales: ['ru'],
+  },
+}; 
