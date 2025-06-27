@@ -1,5 +1,8 @@
 export function getTelegramWebApp() {
-  return (window as any).Telegram?.WebApp;
+  if (typeof window !== 'undefined' && (window as any).Telegram?.WebApp) {
+    return (window as any).Telegram.WebApp;
+  }
+  return null;
 }
 
 export function getTelegramUser() {
